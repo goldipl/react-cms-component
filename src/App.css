@@ -6,3 +6,8 @@
   max-width: 1280px;
   padding: 83px 273px;
 }
+@media (max-width: 800px) {
+  #root {
+    padding: 8px;
+  }
+}
