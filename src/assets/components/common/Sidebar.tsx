@@ -1,9 +1,9 @@
 import React from "react";
-import sidebarInfoIcon from "./../icons/sidebar/sidebar-info.svg";
-import sidebarChatIcon from "./../icons/sidebar/sidebar-chat.svg";
-import sidebarSettingsIcon from "./../icons/sidebar/sidebar-settings.svg";
-import sidebarLabelIcon from "./../icons/sidebar/sidebar-label.svg";
-import sidebarUserSharedIcon from "./../icons/sidebar/sidebar-user-shared.svg";
+import sidebarInfoIcon from "./../../icons/sidebar/sidebar-info.svg";
+import sidebarChatIcon from "./../../icons/sidebar/sidebar-chat.svg";
+import sidebarSettingsIcon from "./../../icons/sidebar/sidebar-settings.svg";
+import sidebarLabelIcon from "./../../icons/sidebar/sidebar-label.svg";
+import sidebarUserSharedIcon from "./../../icons/sidebar/sidebar-user-shared.svg";
 
 const Sidebar = () => {
   return (
