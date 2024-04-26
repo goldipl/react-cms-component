@@ -62,7 +62,10 @@ const Sidebar = () => {
       {/* Sidebar container */}
       <div className="flex flex-col border border-1 border-[#E1E1E2] bg-white rounded-xl p-2 w-max h-auto">
         <div
-          className="flex p-4 rounded-xl cursor-pointer hover:bg-[#F4F4F5]"
+          className={`flex p-4 rounded-xl cursor-pointer hover:bg-[#F4F4F5] ${
+            showInfoModal ? "bg-[#F4F4F5]" : "bg-[rgba(255,255,255,0)]"
+          }
+        `}
           onClick={handleInfoModalClick}
         >
           <img
@@ -74,7 +77,10 @@ const Sidebar = () => {
           />
         </div>
         <div
-          className="flex p-4 rounded-xl cursor-pointer hover:bg-[#F4F4F5]"
+          className={`flex p-4 rounded-xl cursor-pointer hover:bg-[#F4F4F5] ${
+            showChatModal ? "bg-[#F4F4F5]" : "bg-[rgba(255,255,255,0)]"
+          }
+        `}
           onClick={handleChatModalClick}
         >
           <img
@@ -86,7 +92,10 @@ const Sidebar = () => {
           />
         </div>
         <div
-          className="flex p-4 rounded-xl cursor-pointer hover:bg-[#F4F4F5]"
+          className={`flex p-4 rounded-xl cursor-pointer hover:bg-[#F4F4F5] ${
+            showSettingsModal ? "bg-[#F4F4F5]" : "bg-[rgba(255,255,255,0)]"
+          }
+        `}
           onClick={handleSettingsModalClick}
         >
           <img
@@ -98,7 +107,10 @@ const Sidebar = () => {
           />
         </div>
         <div
-          className="flex p-4 rounded-xl cursor-pointer hover:bg-[#F4F4F5]"
+          className={`flex p-4 rounded-xl cursor-pointer hover:bg-[#F4F4F5] ${
+            showTagsModal ? "bg-[#F4F4F5]" : "bg-[rgba(255,255,255,0)]"
+          }
+        `}
           onClick={handleTagsModalClick}
         >
           <img
@@ -110,7 +122,10 @@ const Sidebar = () => {
           />
         </div>
         <div
-          className="flex p-4 rounded-xl cursor-pointer hover:bg-[#F4F4F5]"
+          className={`flex p-4 rounded-xl cursor-pointer hover:bg-[#F4F4F5] ${
+            showUserSharedModal ? "bg-[#F4F4F5]" : "bg-[rgba(255,255,255,0)]"
+          }
+        `}
           onClick={handleUserSharedClick}
         >
           <img
