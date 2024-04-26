@@ -1,7 +1,9 @@
 const Searchbar = () => {
   return (
     <div className="flex my-3">
-      <p>Searchbar</p>
+      <i className="text-emerald-500 text-sm font-bold">
+        [TO DO: Searchbar component]
+      </i>
     </div>
   );
 };
