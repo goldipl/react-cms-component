@@ -1,7 +1,7 @@
 import { useState } from "react";
 import closeIcon from "./../../../icons/sidebar_modal/close-x.svg";
 
-const SidebarTagsModal = () => {
+const SidebarInfoModal = () => {
   const [modalVisible, setModalVisible] = useState(true);
 
   const handleCloseModal = () => {
@@ -15,13 +15,16 @@ const SidebarTagsModal = () => {
       }`}
     >
       <div className="flex flex-row justify-between items-center h-[58px]">
-        <h2 className="font-bold text-2xl">Tagi</h2>
+        <h2 className="font-bold text-2xl">Info</h2>
         <span className="cursor-pointer" onClick={handleCloseModal}>
           <img src={closeIcon} alt="close-icon" width={32} height={32} />
         </span>
+      </div>
+      <div>
+        <p>Sample Info Sidebar Modal</p>
       </div>
     </div>
   );
 };
 
-export default SidebarTagsModal;
+export default SidebarInfoModal;
