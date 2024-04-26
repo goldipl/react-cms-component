@@ -1,25 +1,33 @@
 import { useState } from "react";
 
-const Searchbar = () => {
-  const [tags, setTags] = useState([
+interface Tag {
+  id: number;
+  name: string;
+  checked: boolean;
+}
+
+const TagsComponent: React.FC = () => {
+  const [tags, setTags] = useState<Tag[]>([
     { id: 1, name: "Gwiazda", checked: false },
     { id: 2, name: "Sejm", checked: false },
-    { id: 3, name: "Mariusz Kamiński", checked: false },
-    { id: 4, name: "Na czasie", checked: false },
+    { id: 3, name: "Jarosław Kaczyński", checked: false },
+    { id: 4, name: "PiS", checked: false },
+    { id: 5, name: "Wybory", checked: false },
   ]);
-  const [searchTerm, setSearchTerm] = useState("");
+  const [searchTerm, setSearchTerm] = useState<string>("");
 
-  const handleTagToggle = (id) => {
+  const handleTagToggle = (id: number): void => {
     const updatedTags = tags.map((tag) =>
       tag.id === id ? { ...tag, checked: !tag.checked } : tag
     );
     setTags(updatedTags);
   };
 
-  const handleSearch = (e) => {
-    setSearchTerm(e.target.value);
+  const handleSearch = (event: React.ChangeEvent<HTMLInputElement>): void => {
+    setSearchTerm(event.target.value);
   };
 
+  // Filter tags based on the search term
   const filteredTags = tags.filter((tag) =>
     tag.name.toLowerCase().includes(searchTerm.toLowerCase())
   );
@@ -51,4 +59,4 @@ const Searchbar = () => {
   );
 };
 
-export default Searchbar;
+export default TagsComponent;
