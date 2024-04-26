@@ -4,7 +4,7 @@ import sidebarChatIcon from "./../../icons/sidebar/sidebar-chat.svg";
 import sidebarSettingsIcon from "./../../icons/sidebar/sidebar-settings.svg";
 import sidebarLabelIcon from "./../../icons/sidebar/sidebar-label.svg";
 import sidebarUserSharedIcon from "./../../icons/sidebar/sidebar-user-shared.svg";
-import SidebarTagsModal from "./SidebarTagsModal";
+import SidebarTagsModal from "./sidebar_modals/SidebarTagsModal";
 
 const Sidebar = () => {
   const [showTagsModal, setShowTagsModal] = useState(false);

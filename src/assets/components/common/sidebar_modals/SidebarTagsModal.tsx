@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import closeIcon from "./../../icons/sidebar_modal/close-x.svg";
+import closeIcon from "./../../../icons/sidebar_modal/close-x.svg";
 
 const SidebarTagsModal = () => {
   const [modalVisible, setModalVisible] = useState(true);
