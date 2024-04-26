@@ -19,6 +19,7 @@ const Sidebar = () => {
       <div className="flex flex-col border border-1 border-[#E1E1E2] bg-white rounded-xl p-2 w-max h-auto">
         <div className="flex p-4 rounded-xl cursor-pointer hover:bg-[#F4F4F5]">
           <img
+            className="select-none"
             src={sidebarInfoIcon}
             alt="sidebar icon"
             width={32}
@@ -27,6 +28,7 @@ const Sidebar = () => {
         </div>
         <div className="flex p-4 rounded-xl cursor-pointer hover:bg-[#F4F4F5]">
           <img
+            className="select-none"
             src={sidebarChatIcon}
             alt="sidebar icon"
             width={32}
@@ -35,6 +37,7 @@ const Sidebar = () => {
         </div>
         <div className="flex p-4 rounded-xl cursor-pointer hover:bg-[#F4F4F5]">
           <img
+            className="select-none"
             src={sidebarSettingsIcon}
             alt="sidebar icon"
             width={32}
@@ -46,6 +49,7 @@ const Sidebar = () => {
           onClick={handleTagsModalClick}
         >
           <img
+            className="select-none"
             src={sidebarLabelIcon}
             alt="sidebar icon"
             width={32}
@@ -54,6 +58,7 @@ const Sidebar = () => {
         </div>
         <div className="flex p-4 rounded-xl cursor-pointer hover:bg-[#F4F4F5]">
           <img
+            className="select-none"
             src={sidebarUserSharedIcon}
             alt="sidebar icon"
             width={32}
