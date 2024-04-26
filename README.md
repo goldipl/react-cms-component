@@ -2,6 +2,12 @@
 
 React.js CMS component written using React.js, TypeScript, Tailwind CSS
 
+Used technlogies:
+
+- React.js
+- TypeScript
+- Tailwind CSS
+
 Preview:
 ![screenshot](./src/assets/screenshots/component.jpg)
 
