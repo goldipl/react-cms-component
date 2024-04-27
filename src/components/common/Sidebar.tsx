@@ -138,7 +138,7 @@ const Sidebar = () => {
         </div>
       </div>
       {/* Sidebar Modals container */}
-      <div className="flex relative lg:absolute top-2 left-0 lg:left-24 w-full">
+      <div className="flex relative lg:absolute top-2 left-0 lg:left-24 lg:top-0 w-full">
         {showTagsModal && <SidebarTagsModal />}
         {showInfoModal && <SidebarInfoModal />}
         {showChatModal && <SidebarChatModal />}
