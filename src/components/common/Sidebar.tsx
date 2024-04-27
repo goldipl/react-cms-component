@@ -62,7 +62,7 @@ const Sidebar = () => {
       {/* Sidebar container */}
       <div className="flex flex-col border border-1 border-[#E1E1E2] bg-white rounded-xl p-2 w-max h-auto shadow-md">
         <div
-          className={`flex p-4 rounded-xl cursor-pointer hover:bg-[#F4F4F5] ${
+          className={`flex p-4 rounded-xl cursor-pointer hover:bg-[#F4F4F5] mb-1 ${
             showInfoModal ? "bg-[#F4F4F5]" : "bg-[rgba(255,255,255,0)]"
           }
         `}
@@ -77,7 +77,7 @@ const Sidebar = () => {
           />
         </div>
         <div
-          className={`flex p-4 rounded-xl cursor-pointer hover:bg-[#F4F4F5] ${
+          className={`flex p-4 rounded-xl cursor-pointer hover:bg-[#F4F4F5] mb-1 ${
             showChatModal ? "bg-[#F4F4F5]" : "bg-[rgba(255,255,255,0)]"
           }
         `}
@@ -92,7 +92,7 @@ const Sidebar = () => {
           />
         </div>
         <div
-          className={`flex p-4 rounded-xl cursor-pointer hover:bg-[#F4F4F5] ${
+          className={`flex p-4 rounded-xl cursor-pointer hover:bg-[#F4F4F5]  mb-1 ${
             showSettingsModal ? "bg-[#F4F4F5]" : "bg-[rgba(255,255,255,0)]"
           }
         `}
@@ -107,7 +107,7 @@ const Sidebar = () => {
           />
         </div>
         <div
-          className={`flex p-4 rounded-xl cursor-pointer hover:bg-[#F4F4F5] ${
+          className={`flex p-4 rounded-xl cursor-pointer hover:bg-[#F4F4F5]  mb-1 ${
             showTagsModal ? "bg-[#F4F4F5]" : "bg-[rgba(255,255,255,0)]"
           }
         `}
