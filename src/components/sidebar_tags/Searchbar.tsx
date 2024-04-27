@@ -23,8 +23,8 @@ const TagsComponent: React.FC = () => {
     setTags(updatedTags);
   };
 
-  const handleSearch = (event: React.ChangeEvent<HTMLInputElement>): void => {
-    setSearchTerm(event.target.value);
+  const handleSearch = (e: React.ChangeEvent<HTMLInputElement>): void => {
+    setSearchTerm(e.target.value);
   };
 
   // Filter tags based on the search term

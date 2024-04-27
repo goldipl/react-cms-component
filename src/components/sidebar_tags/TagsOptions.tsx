@@ -1,6 +1,6 @@
-import aiGreyIcon from "./../../icons/sidebar_modal/ai-grey.svg";
-import aiPurpleIcon from "./../../icons/sidebar_modal/ai-purple.svg";
-import purpleLabelIcon from "./../../icons/sidebar_modal/label-purple.svg";
+import aiGreyIcon from "./../../assets/icons/sidebar_modal/ai-grey.svg";
+import aiPurpleIcon from "./../../assets/icons/sidebar_modal/ai-purple.svg";
+import purpleLabelIcon from "./../../assets/icons/sidebar_modal/label-purple.svg";
 
 const TagsOptions = () => {
   return (

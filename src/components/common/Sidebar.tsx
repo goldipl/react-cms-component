@@ -1,9 +1,9 @@
 import { useState } from "react";
-import sidebarInfoIcon from "./../../icons/sidebar/sidebar-info.svg";
-import sidebarChatIcon from "./../../icons/sidebar/sidebar-chat.svg";
-import sidebarSettingsIcon from "./../../icons/sidebar/sidebar-settings.svg";
-import sidebarLabelIcon from "./../../icons/sidebar/sidebar-label.svg";
-import sidebarUserSharedIcon from "./../../icons/sidebar/sidebar-user-shared.svg";
+import sidebarInfoIcon from "./../../assets/icons/sidebar/sidebar-info.svg";
+import sidebarChatIcon from "./../../assets/icons/sidebar/sidebar-chat.svg";
+import sidebarSettingsIcon from "./../../assets/icons/sidebar/sidebar-settings.svg";
+import sidebarLabelIcon from "./../../assets/icons/sidebar/sidebar-label.svg";
+import sidebarUserSharedIcon from "./../../assets/icons/sidebar/sidebar-user-shared.svg";
 import SidebarTagsModal from "./sidebar_modals/SidebarTagsModal";
 import SidebarInfoModal from "./sidebar_modals/SidebarInfoModal";
 import SidebarChatModal from "./sidebar_modals/SidebarChatModal";

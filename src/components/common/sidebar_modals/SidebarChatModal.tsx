@@ -1,7 +1,7 @@
 import { useState } from "react";
-import closeIcon from "./../../../icons/sidebar_modal/close-x.svg";
+import closeIcon from "./../../../assets/icons/sidebar_modal/close-x.svg";
 
-const SidebarUserSharedModal = () => {
+const SidebarChatModal = () => {
   const [modalVisible, setModalVisible] = useState(true);
 
   const handleCloseModal = () => {
@@ -10,21 +10,21 @@ const SidebarUserSharedModal = () => {
 
   return (
     <div
-      className={`flex flex-col border border-1 border-[#E1E1E2] bg-white rounded-xl w-max h-auto min-w-[387px] py-2 px-4 ${
+      className={`flex flex-col border border-1 border-[#E1E1E2] bg-white rounded-xl w-max h-auto sm:min-w-[387px] py-2 px-4 pb-5 ${
         modalVisible ? "flex" : "hidden"
       }`}
     >
       <div className="flex flex-row justify-between items-center h-[58px]">
-        <h2 className="font-bold text-2xl">User Shared</h2>
+        <h2 className="font-bold text-2xl">Chat</h2>
         <span className="cursor-pointer" onClick={handleCloseModal}>
           <img src={closeIcon} alt="close-icon" width={32} height={32} />
         </span>
       </div>
       <div>
-        <p>Sample User Shared Sidebar Modal</p>
+        <p>Sample Chat Sidebar Modal</p>
       </div>
     </div>
   );
 };
 
-export default SidebarUserSharedModal;
+export default SidebarChatModal;
