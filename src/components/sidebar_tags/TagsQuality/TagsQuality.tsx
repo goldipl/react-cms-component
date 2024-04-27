@@ -36,7 +36,7 @@ const TagsQuality: React.FC<TagsQualityProps> = ({ checkedCount }) => {
     qualityStatusColor = "text-green-600";
     qualityProgressBarColor = "bg-green-600";
     qualityStatusText =
-      "Jest dobrze. Jak dodasz 1 tag więcej to widoczność artykułu się poprawi znacznie";
+      "Jest dobrze. Jak dodasz 1 tag więcej to widoczność artykułu znacznie się poprawi";
   } else if (checkedCount >= 5) {
     qualityText = "Bardzo Dobrze";
     qualityStatusColor = "text-lime-500";
