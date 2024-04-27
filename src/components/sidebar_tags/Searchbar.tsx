@@ -1,4 +1,5 @@
 import { useState } from "react";
+import data from "./../../data/tags.json";
 
 interface Tag {
   id: number;
@@ -7,13 +8,7 @@ interface Tag {
 }
 
 const TagsComponent: React.FC = () => {
-  const [tags, setTags] = useState<Tag[]>([
-    { id: 1, name: "Gwiazda", checked: false },
-    { id: 2, name: "Sejm", checked: false },
-    { id: 3, name: "Jarosław Kaczyński", checked: false },
-    { id: 4, name: "PiS", checked: false },
-    { id: 5, name: "Wybory", checked: false },
-  ]);
+  const [tags, setTags] = useState<Tag[]>(data);
   const [searchTerm, setSearchTerm] = useState<string>("");
 
   const handleTagToggle = (id: number): void => {
