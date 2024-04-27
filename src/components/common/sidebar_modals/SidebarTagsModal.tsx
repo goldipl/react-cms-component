@@ -2,7 +2,7 @@ import { useState } from "react";
 import closeIcon from "./../../../assets/icons/sidebar_modal/close-x.svg";
 import Searchbar from "../../sidebar_tags/Searchbar";
 import TagsOptions from "../../sidebar_tags/TagsOptions";
-import TagsQuality from "../../sidebar_tags/TagsQuality";
+import TagsQuality from "../../sidebar_tags/TagsQuality/TagsQuality";
 
 const SidebarTagsModal = () => {
   const [modalVisible, setModalVisible] = useState(true);
@@ -13,7 +13,7 @@ const SidebarTagsModal = () => {
 
   return (
     <div
-      className={`flex flex-col border border-1 border-[#E1E1E2] bg-white rounded-xl w-max h-auto min-w-[387px] py-2 px-4 pb-5 ${
+      className={`flex flex-col border border-1 border-[#E1E1E2] bg-white rounded-xl w-max h-auto min-w-[387px] py-2 px-4 pb-1 shadow-md ${
         modalVisible ? "flex" : "hidden"
       }`}
     >
