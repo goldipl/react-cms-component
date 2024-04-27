@@ -103,11 +103,11 @@ and open
 http://localhost:5173/
 ```
 
-## Project preview in `.gif` form - desktop version
+## Project preview in `.gif` file - desktop version
 
 <img src="./src/assets/gif/tags-component-desktop.gif">
 
-## Project preview in `.gif` form - mobile version
+## Project preview in `.gif` file - mobile version
 
 <img src="./src/assets/gif/tags-component-mobile.gif" width="300">
 
