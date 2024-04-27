@@ -10,7 +10,7 @@ const SidebarUserSharedModal = () => {
 
   return (
     <div
-      className={`flex flex-col border border-1 border-[#E1E1E2] bg-white rounded-xl w-max h-auto min-w-[387px] py-2 px-4 pb-5 shadow-md ${
+      className={`flex flex-col border border-1 border-[#E1E1E2] bg-white rounded-xl w-max h-auto min-w-[387px] py-2 px-4 pb-5 shadow-md max-w-[387px] ${
         modalVisible ? "flex" : "hidden"
       }`}
     >
