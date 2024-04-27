@@ -21,7 +21,19 @@ const SidebarInfoModal = () => {
         </span>
       </div>
       <div>
-        <p>Sample Info Sidebar Modal</p>
+        <p className="mb-3">Sample Info Sidebar Modal</p>
+        <p className="mb-3">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis quae
+          iste et asperiores autem culpa consequatur voluptates enim odio sit
+          laudantium, velit alias aperiam consectetur ducimus. Quam odit sequi
+          tempore.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis quae
+          iste et asperiores autem culpa consequatur voluptates enim odio sit
+          laudantium, velit alias aperiam consectetur ducimus. Quam odit sequi
+          tempore.
+        </p>
       </div>
     </div>
   );
