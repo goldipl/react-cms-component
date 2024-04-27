@@ -38,7 +38,7 @@ Sample tags were created in the json file located in `/src/data/tags.json`. You 
 Let's move on to discuss the main functionality.
 The `<SidebarTagsModal />` has been divided into 3 minor components that make up the full functionality.
 
-- `<SidebarTagsModal />` - modal creates a main structure containing a modal template with a title and a hook to hide the modal & incluce main tag component named TagsComponent
+- `<SidebarTagsModal />` - modal creates a main structure containing a modal template with a title and a hook to hide the modal & include main tag component named TagsComponent
 - `<TagsComponent />` - component contains the other 2 components:
 
   - `<TagsOptions />` - the component responsible for 3 functions such as: CMS AI (currently unavailable), text analysis & the most popular tags
