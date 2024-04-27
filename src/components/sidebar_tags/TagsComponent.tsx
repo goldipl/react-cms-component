@@ -1,6 +1,8 @@
 import { useState } from "react";
-import data from "./../../data/tags.json";
+import data from "../../data/tags.json";
 import searchIcon from "./../../assets/icons/sidebar_modal/search.svg";
+import TagsQuality from "./TagsQuality/TagsQuality";
+import TagsOptions from "./TagsOptions";
 
 interface Tag {
   id: number;
@@ -61,6 +63,10 @@ const TagsComponent: React.FC = () => {
           </li>
         ))}
       </ul>
+      <TagsOptions />
+      <TagsQuality
+        checkedCount={filteredTags.filter((tag) => tag.checked).length}
+      />
     </div>
   );
 };

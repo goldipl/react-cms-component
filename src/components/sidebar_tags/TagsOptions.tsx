@@ -4,7 +4,7 @@ import purpleLabelIcon from "./../../assets/icons/sidebar_modal/label-purple.svg
 
 const TagsOptions = () => {
   return (
-    <div className="flex flex-col justify-start items-start border-t-[1px] border-b-[1px] border-[#E1E1E2] py-2">
+    <div className="flex flex-col justify-start items-start border-t-[1px] py-2">
       <div className="flex flex-row justify-start items-center cursor-not-allowed my-2 mx-2">
         <div className="flex me-3">
           <img src={aiGreyIcon} alt="img" width={24} height={24} />

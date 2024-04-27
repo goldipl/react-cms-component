@@ -1,8 +1,6 @@
 import { useState } from "react";
 import closeIcon from "./../../../assets/icons/sidebar_modal/close-x.svg";
-import Searchbar from "../../sidebar_tags/Searchbar";
-import TagsOptions from "../../sidebar_tags/TagsOptions";
-import TagsQuality from "../../sidebar_tags/TagsQuality/TagsQuality";
+import TagsComponent from "../../sidebar_tags/TagsComponent";
 
 const SidebarTagsModal = () => {
   const [modalVisible, setModalVisible] = useState(true);
@@ -23,9 +21,7 @@ const SidebarTagsModal = () => {
           <img src={closeIcon} alt="close-icon" width={32} height={32} />
         </span>
       </div>
-      <Searchbar />
-      <TagsOptions />
-      <TagsQuality />
+      <TagsComponent />
     </div>
   );
 };
