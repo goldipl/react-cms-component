@@ -103,6 +103,10 @@ and open
 http://localhost:5173/
 ```
 
+## Live link
+
+https://goldipl.github.io/react-cms-component/
+
 ## Project preview in `.gif` file - desktop version
 
 <img src="./src/assets/gif/tags-component-desktop.gif">
