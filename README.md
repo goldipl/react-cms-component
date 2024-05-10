@@ -42,45 +42,7 @@ The `<SidebarTagsModal />` has been divided into 3 minor components that make up
 - `<TagsComponent />` - component contains the other 2 components:
 
   - `<TagsOptions />` - the component responsible for 3 functions such as: CMS AI (currently unavailable), text analysis & the most popular tags
-  - `<TagsQuality />` - component, which is used to evaluate the number of selected tags according to a 5-degree scale. More info about the scale in code snippet below:
-
-  ```typescript
-  if (checkedCount === 1) {
-    qualityText = "Źle";
-    qualityStatusColor = "text-red-700";
-    qualityProgressBarColor = "bg-red-700";
-    qualityStatusText =
-      "Zbyt mało tagów. Dodaj jeszcze 3 aby poprawić widoczność artykułu";
-  } else if (checkedCount === 2) {
-    qualityText = "Słabo";
-    qualityStatusColor = "text-red-400";
-    qualityProgressBarColor = "bg-red-400";
-    qualityStatusText =
-      "Zbyt mało tagów. Dodaj jeszcze 2 aby poprawić widoczność artykułu";
-  } else if (checkedCount === 3) {
-    qualityText = "Ok";
-    qualityStatusColor = "text-yellow-400";
-    qualityProgressBarColor = "bg-yellow-400";
-    qualityStatusText =
-      "Jest ok. Jak dodasz więcej tagów to widoczność artykułu się poprawi";
-  } else if (checkedCount === 4) {
-    qualityText = "Dobrze";
-    qualityStatusColor = "text-green-600";
-    qualityProgressBarColor = "bg-green-600";
-    qualityStatusText =
-      "Jest dobrze. Jak dodasz 1 tag więcej to widoczność artykułu znacznie się poprawi";
-  } else if (checkedCount >= 5) {
-    qualityText = "Bardzo Dobrze";
-    qualityStatusColor = "text-lime-500";
-    qualityProgressBarColor = "bg-lime-500";
-    qualityStatusText = "Jest bardzo dobrze. O to chodziło";
-  } else {
-    qualityText = "Wybierz Tagi";
-    qualityStatusColor = "text-gray-600";
-    qualityProgressBarColor = "bg-gray-600";
-    qualityStatusText = "";
-  }
-  ```
+  - `<TagsQuality />` - component, which is used to evaluate the number of selected tags according to a 5-degree scale.
 
 ## How to run locally?
 
