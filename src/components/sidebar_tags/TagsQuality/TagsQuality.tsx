@@ -13,12 +13,14 @@ const TagsQuality: React.FC<TagsQualityProps> = ({ checkedCount }) => {
   let qualityStatusColor = "";
   let qualityProgressBarColor = "";
   let qualityStatusText = "";
-
   let checkedCountIndex = checkedCount - 1; // Adjust index for zero-based array
-  if (checkedCountIndex < 0) {
-    checkedCountIndex = QualityLevels.length - 1; // Set to default for out-of-range values
-  } else if (checkedCountIndex >= QualityLevels.length) {
+
+  if (checkedCount === 6) {
     checkedCountIndex = 4;
+  } else if (checkedCountIndex < 0) {
+    checkedCountIndex = QualityLevels.length - 1; 
+  } else if (checkedCountIndex >= QualityLevels.length) {
+    checkedCountIndex = 4; 
   }
 
   const qualityLevel = QualityLevels[checkedCountIndex];
